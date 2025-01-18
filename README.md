@@ -1,8 +1,13 @@
-# React + Vite
+## Introduction
+Welcome to my portfolio! This repository showcases my skills, projects, and achievements as a developer. It serves as a collection of my work, highlighting my passion for creating impactful solutions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
 
-Currently, two official plugins are available:
+- Click [here](https://aravindhan-portfolio61.netlify.app/) to view the live demo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Authors
+
+👤 **Aravindhan.K**
+
+- GitHub: [@GitHub](https://github.com/Aravindhan-K97)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/aravindhan-k-351394312/)
