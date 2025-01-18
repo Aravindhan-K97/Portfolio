@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import boxicons from 'boxicons'
 
 const Frontend = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Frontend Developer</h3>
-
+        <h3 className="skills__title">Frontend</h3>
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
@@ -13,7 +13,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">HTML</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -34,71 +34,39 @@ const Frontend = () => {
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
-
-                <div className="skills__data">
-                    <i className='bx bxs-data'></i>
-
-                    <div>
-                        <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Basic</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i className='bx bxl-typescript'></i>
-
-                    <div>
-                        <h3 className="skills__name">TypeScript</h3>
-                        <span className="skills__level">Basic</span>
-                    </div>
-                </div>
-            </div>
-
-            <div className="skills__group">
                 <div className="skills__data">
                     <i className='bx bxl-bootstrap' ></i>
 
                     <div>
                         <h3 className="skills__name">Bootstrap</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
-
-                <div className="skills__data">
-                    <i className='bx bxl-git' ></i>
-
-                    <div>
-                        <h3 className="skills__name">Git</h3>
-                        <span className="skills__level">Intermediate</span>
-                    </div>
-                </div>
-
                 <div className="skills__data">
                     <i className='bx bxl-react' ></i>
 
                     <div>
                         <h3 className="skills__name">React</h3>
-                        <span className="skills__level">Basic</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
-
                 <div className="skills__data">
-                    <i className='bx bxl-nodejs' ></i>
+                    <i className='bx bxl-redux' ></i>
 
                     <div>
-                        <h3 className="skills__name">Node Js</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Redux</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
-
                 <div className="skills__data">
-                    <i className='bx bxl-tailwind-css' ></i>
+                    <i className='bx bxl-python' ></i>
 
                     <div>
-                        <h3 className="skills__name">Tailwind CSS</h3>
+                        <h3 className="skills__name">Python</h3>
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
