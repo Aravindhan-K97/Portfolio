@@ -32,13 +32,19 @@
 	border: 2px solid rgba(0, 0, 0, 0.1);
 	padding: 1.25rem;
 	border-radius: 1rem;
-	width: 300px;
-	height: 300px;
+	width: 320px;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .work__img {
-	width: 295px;
-	height: 150px;
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
 	border-radius: 1rem;
 	margin-bottom: var(--mb-1);
 }
@@ -47,6 +53,37 @@
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-medium);
 	margin-bottom: var(--mb-0-5);
+}
+
+.work__description {
+	font-size: 14px;
+	color: var(--text-color);
+	margin-bottom: var(--mb-1);
+}
+
+.work__techstack-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.work__techstack {
+	display: inline-block;
+	background-color: #007bff;
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 8px 12px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 0px 3px 6px rgba(0, 123, 255, 0.3);
+	transition: background 0.3s ease-in-out;
+}
+
+.work__techstack:hover {
+	background-color: #0056b3;
 }
 
 .work__button {
@@ -84,6 +121,7 @@
   align-items: center;
   margin-top: var(--mb-0-75);
 	position: relative;
+	width: 100%;
 }
 
 .work__tooltip {

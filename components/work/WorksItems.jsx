@@ -23,8 +23,17 @@ const WorksItems = ({ item }) => {
 
 	return (
 		<div className='work__card' key={item.id}>
-			<img src={item.image} alt='' className='work__img' />
+			<img src={item.image} alt={item.title} className='work__img' />
 			<h3 className='work__title'>{item.title}</h3>
+
+			{/* Adding Description */}
+			<p className='work__description'>{item.description}</p>
+
+			{/* Highlighting Tech Stack */}
+			<p className='work__techstack'>
+				<strong>Tech Stack:</strong> <span>{item.techStack}</span>
+			</p>
+
 			<div className='work__button-container'>
 				<a
 					href='#'
@@ -47,7 +56,6 @@ const WorksItems = ({ item }) => {
 				>
 					<i className='bx bxl-github work__button-icon' /> Source
 				</a>
-				
 			</div>
 		</div>
 	);
