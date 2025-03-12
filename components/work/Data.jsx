@@ -4,13 +4,14 @@ import Work3 from '../../src/assets/Work3.png';
 import Work4 from '../../src/assets/Work4.png';
 import Work5 from '../../src/assets/Work5.png';
 import Work8 from '../../src/assets/Work8.png';
+import Work6 from '../../src/assets/Work6.png';
 
 export const projectsData = [
 	{
 		id: 1,
 		image: Work1,
 		title: 'Role Based Access Control (RBAC) System',
-		category: 'Frontend',
+		category: 'Full Stack Development',
 		techStack: 'React.js, Redux,Tailwind CSS,Formik,JWT,React Router',
 		description: 'A web application that manages user roles and permissions, ensuring secure access to resources based on roles.',
 		demoUrl: 'https://lambent-kulfi-76a377.netlify.app/',
@@ -21,7 +22,7 @@ export const projectsData = [
 		id: 2,
 		image: Work2,
 		title: 'Password Reset Web Application',
-		category: 'Frontend',
+		category: 'Backend Development',
 		techStack: 'React.js, Context API,Bootstrap,NodeMailer,JWT',
 		description: 'A secure password reset system that allows users to reset their passwords via email verification.',
 		demoUrl: 'https://password-reset-61.netlify.app/login',
@@ -32,7 +33,7 @@ export const projectsData = [
 		id: 3,
 		image: Work3,
 		title: 'URL Shortener Web Application',
-		category: 'Frontend',
+		category: 'Full Stack Development',
 		techStack: 'React.js,Context API,Bootstrap,REST APIs',
 		description: 'A URL shortening service that allows users to generate short links and track analytics for created URLs.',
 		demoUrl: 'https://celadon-horse-a0582a.netlify.app/login',
@@ -43,7 +44,7 @@ export const projectsData = [
 		id: 4,
 		image: Work4,
 		title: 'Context API Shopping Website with Cart Functions',
-		category: 'Frontend',
+		category: 'Frontend Development',
 		techStack: 'React.js,Context API,Bootstrap,Local Storage',
 		description: 'An e-commerce website featuring a shopping cart, product listing, and real-time updates using Context API.',
 		demoUrl: 'https://shopping-cart610.netlify.app/',
@@ -52,13 +53,13 @@ export const projectsData = [
 	},
 	{
 		id: 5,
-		image: Work8,
-		title: 'Role Based Access Control (RBAC) System - Backend',
-		category: 'Backend',
-		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt',
-		description: 'Backend for a secure role-based authentication system that manages access control for users.',
-		demoUrl: 'https://capestone-be.onrender.com/',
-		sourceUrl: 'https://github.com/Aravindhan-K97/Capestone-BE',
+		image: Work6,
+		title: 'MYDOCTIME - Doctor Appointment Web App',
+		category: 'Full Stack Development',
+		techStack: 'React.js,Node.js, Express.js,MongoDB,JWT,Stripe, Razorpay,tailwind CSS',
+		description: 'Mydoctime is a MERN-based web app that simplifies doctor appointment bookings with role-based access for Patients, Doctors, and Admins. It integrates Stripe and Razorpay for secure payments, ensuring a seamless healthcare experience.',
+		demoUrl: 'https://mydoctime-frontend.onrender.com/',
+		sourceUrl: 'https://github.com/Aravindhan-K97/Mydoctime',
 		status: 'completed',
 	},
 	{
@@ -87,13 +88,13 @@ export const projectsData = [
 
 export const projectsNav = [
 	{
-		name: 'all',
+		name: 'Full Stack Development',
 	},
 	
 	{
-		name: 'Frontend',
+		name: 'Frontend Development',
 	},
 	{
-		name: 'Backend',
+		name: 'Backend Development',
 	},
 ];  
