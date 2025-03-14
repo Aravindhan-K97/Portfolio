@@ -5,6 +5,7 @@ import Work4 from '../../src/assets/Work4.png';
 import Work5 from '../../src/assets/Work5.png';
 import Work8 from '../../src/assets/Work8.png';
 import Work6 from '../../src/assets/Work6.png';
+import Work7 from '../../src/assets/Work7.png';
 
 export const projectsData = [
 	{
@@ -84,6 +85,17 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Aravindhan-K97/url-shortner-backend',
 		status: 'completed',
 	},
+	{
+		id: 8,
+		image: Work7,
+		title: ' CarieerBridge - Job Portal',
+		category: 'Full Stack Development',
+		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv',
+		description: 'CAREERBRIDGE is a Fullstack solution connecting job seekers with employers through efficient job listings and applications.',
+		demoUrl: 'https://careerbridge-fe.onrender.com/login',
+		sourceUrl: 'https://github.com/Aravindhan-K97/CareerBridge-FE',
+		status: 'completed',
+	}
 ];
 
 export const projectsNav = [
