@@ -92,8 +92,8 @@ export const projectsData = [
 		category: 'Full Stack Development',
 		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv',
 		description: 'CAREERBRIDGE is a Fullstack solution connecting job seekers with employers through efficient job listings and applications.',
-		demoUrl: 'https://careerbridge-fe.onrender.com/login',
-		sourceUrl: 'https://github.com/Aravindhan-K97/CareerBridge-FE',
+		demoUrl: 'https://careerbridge-frontend-9nxh.onrender.com',
+		sourceUrl: 'https://github.com/Aravindhan-K97/Careerbridge-frontend',
 		status: 'completed',
 	}
 ];
