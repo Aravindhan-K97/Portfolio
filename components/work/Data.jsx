@@ -96,6 +96,18 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Aravindhan-K97/Careerbridge-frontend',
 		status: 'completed',
 	}
+	{
+		id: 9,
+		image: Work9,
+		title: ' MovieFlix',
+		category: 'Full Stack Development',
+		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv,redux-toolkit',
+		description: 'MovieFlix is a dynamic movie app where users can browse, search, and review movies, while admins manage genres and user feedback — all in a clean, responsive interface.',
+		demoUrl: 'https://careerbridge-frontend-9nxh.onrender.com',
+		sourceUrl: 'https://github.com/Aravindhan-K97/MoviesAPP',
+		status: 'completed',
+
+	}
 ];
 
 export const projectsNav = [
