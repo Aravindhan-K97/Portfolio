@@ -6,6 +6,7 @@ import Work5 from '../../src/assets/Work5.png';
 import Work8 from '../../src/assets/Work8.png';
 import Work6 from '../../src/assets/Work6.png';
 import Work7 from '../../src/assets/Work7.png';
+import Work9 from '../../src/assets/Work9.png';
 
 export const projectsData = [
 	{
@@ -95,7 +96,7 @@ export const projectsData = [
 		demoUrl: 'https://careerbridge-frontend-9nxh.onrender.com',
 		sourceUrl: 'https://github.com/Aravindhan-K97/Careerbridge-frontend',
 		status: 'completed',
-	}
+	},
 	{
 		id: 9,
 		image: Work9,
