@@ -109,6 +109,18 @@ export const projectsData = [
 		status: 'completed',
 
 	}
+	{
+		id: 9,
+		image: Work10,
+		title: 'TrendNest',
+		category: 'Full Stack Development',
+		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv,redux-toolkit',
+		description: 'TrendNest brings you the latest trends in fashion, electronics, and more — all in one place,Shop smart, fast, and effortlessly with secure checkout and doorstep delivery.',
+		demoUrl: 'https://trendnest-fe.netlify.app/',
+		sourceUrl: 'https://github.com/Aravindhan-K97/TrendNest',
+		status: 'completed',
+
+	}
 ];
 
 export const projectsNav = [
