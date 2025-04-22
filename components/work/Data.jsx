@@ -2,13 +2,11 @@ import Work1 from '../../src/assets/Work1.png';
 import Work2 from '../../src/assets/Work2.png';
 import Work3 from '../../src/assets/Work3.png';
 import Work4 from '../../src/assets/Work4.png';
-import Work5 from '../../src/assets/Work5.png';
 import Work8 from '../../src/assets/Work8.png';
 import Work6 from '../../src/assets/Work6.png';
 import Work7 from '../../src/assets/Work7.png';
-import Work9 from '../../src/assets/Work9.png';
 import Work10 from '../../src/assets/Work10.png';
-
+import Work11 from '../../src/assets/Work11.png';
 export const projectsData = [
 	{
 		id: 1,
@@ -100,7 +98,7 @@ export const projectsData = [
 	},
 	{
 		id: 9,
-		image: Work9,
+		image: Work11,
 		title: ' MovieFlix',
 		category: 'Full Stack Development',
 		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv,redux-toolkit',
