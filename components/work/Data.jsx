@@ -7,6 +7,7 @@ import Work8 from '../../src/assets/Work8.png';
 import Work6 from '../../src/assets/Work6.png';
 import Work7 from '../../src/assets/Work7.png';
 import Work9 from '../../src/assets/Work9.png';
+import Work10 from '../../src/assets/Work10.png';
 
 export const projectsData = [
 	{
@@ -108,13 +109,13 @@ export const projectsData = [
 		sourceUrl: 'https://github.com/Aravindhan-K97/MoviesAPP',
 		status: 'completed',
 
-	}
+	},
 	{
-		id: 9,
+		id: 10,
 		image: Work10,
 		title: 'TrendNest',
 		category: 'Full Stack Development',
-		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv,redux-toolkit',
+		techStack: 'Node.js,Express.js,MongoDB,JWT,Bcrypt,axios,dotenv,redux-toolkit,multer',
 		description: 'TrendNest brings you the latest trends in fashion, electronics, and more — all in one place,Shop smart, fast, and effortlessly with secure checkout and doorstep delivery.',
 		demoUrl: 'https://trendnest-fe.netlify.app/',
 		sourceUrl: 'https://github.com/Aravindhan-K97/TrendNest',
