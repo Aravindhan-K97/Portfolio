@@ -7,6 +7,7 @@ import Work6 from '../../src/assets/Work6.png';
 import Work7 from '../../src/assets/Work7.png';
 import Work10 from '../../src/assets/Work10.png';
 import Work11 from '../../src/assets/Work11.png';
+import Work12 from '../../src/assets/Work12.png';
 export const projectsData = [
 	{
 		id: 1,
@@ -117,6 +118,17 @@ export const projectsData = [
 		description: 'TrendNest brings you the latest trends in fashion, electronics, and more — all in one place,Shop smart, fast, and effortlessly with secure checkout and doorstep delivery.',
 		demoUrl: 'https://trendnest-fe.netlify.app/',
 		sourceUrl: 'https://github.com/Aravindhan-K97/TrendNest',
+		status: 'completed',
+	},
+	{
+		id: 11,
+		image: Work12,
+		title: 'Shopify Landing',
+		category: 'Frontend Development',
+		techStack: 'React.js,Redux,Tailwind CSS',
+		description: 'A sleek, mobile-responsive Shopify landing page built using the latest frontend tools. This project is perfect for showcasing a product with engaging animations, clear pricing, testimonials, and a contact section to drive conversions.',
+		demoUrl: 'https://shopify-landing-kn3v.onrender.com',
+		sourceUrl: 'https://github.com/Aravindhan-K97/Shopify-landing',
 		status: 'completed',
 
 	}
