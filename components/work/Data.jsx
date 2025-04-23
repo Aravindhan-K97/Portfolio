@@ -8,6 +8,7 @@ import Work7 from '../../src/assets/Work7.png';
 import Work10 from '../../src/assets/Work10.png';
 import Work11 from '../../src/assets/Work11.png';
 import Work12 from '../../src/assets/Work12.png';
+import Work13 from '../../src/assets/Work13.png';
 export const projectsData = [
 	{
 		id: 1,
@@ -129,6 +130,18 @@ export const projectsData = [
 		description: 'A sleek, mobile-responsive Shopify landing page built using the latest frontend tools. This project is perfect for showcasing a product with engaging animations, clear pricing, testimonials, and a contact section to drive conversions.',
 		demoUrl: 'https://shopify-landing-kn3v.onrender.com',
 		sourceUrl: 'https://github.com/Aravindhan-K97/Shopify-landing',
+		status: 'completed',
+
+	},
+	{
+		id: 12,
+		image: Work13,
+		title: 'Tic-Tac-Toe',
+		category: 'Frontend Development',
+		techStack: 'React.js,CSS',
+		description: 'A classic Tic Tac Toe game built with React 19,Play with a friend and enjoy a clean, responsive UI with smooth gameplay.',
+		demoUrl: 'https://tic-tac-toe-lphg.onrender.com/',
+		sourceUrl: 'https://github.com/Aravindhan-K97/tic-tac-toe',
 		status: 'completed',
 
 	}
